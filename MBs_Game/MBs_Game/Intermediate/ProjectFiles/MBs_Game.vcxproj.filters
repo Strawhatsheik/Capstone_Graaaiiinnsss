@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MBs_Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{27EE777E-1C46-4B52-9EA3-0DDF97830C17}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MBs_Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MBs_GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4873EC65-6332-4D20-BB3F-F23AD8646CA5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MBs_Game">
+      <UniqueIdentifier>{C847F160-2B0C-4D4B-91DE-22A1511919DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MBs_Game\AICharacter.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\AICharacter.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\AICharacter_ZombieCow.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\AICharacter_ZombieCow.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\AIControllerC.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\AIControllerC.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\CameraDirectorCow.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\CameraDirectorCow.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\CampFire.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\CampFire.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\HealthBar.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\HealthBar.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\LightSwitchTrigger.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\LightSwitchTrigger.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MBs_Game\MBs_Game.Build.cs">
+      <Filter>Source\MBs_Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MBs_Game\MBs_Game.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\MBs_Game.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\MBs_GameCharacter.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\MBs_GameCharacter.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\MBs_GameGameMode.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\MBs_GameGameMode.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\MBs_GameHUD.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\MBs_GameHUD.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\MBs_GameProjectile.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\MBs_GameProjectile.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\MedKit.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\MedKit.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\OnComponentHit.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\OnComponentHit.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\OnHitComp.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\OnHitComp.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\OpenDoorTimelineCurve.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\OpenDoorTimelineCurve.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\ZombieAIController.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\ZombieAIController.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\ZombieAnimInstance.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\ZombieAnimInstance.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MBs_Game\Zombie_Cow.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\Zombie_Cow.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MBs_Game\Weapon.h">
+      <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MBs_Game\Weapon.cpp">
+      <Filter>Source\MBs_Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
