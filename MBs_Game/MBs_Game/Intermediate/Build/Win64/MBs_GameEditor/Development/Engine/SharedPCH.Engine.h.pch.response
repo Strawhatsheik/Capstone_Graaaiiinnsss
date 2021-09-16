@@ -188,17 +188,17 @@
 /I Runtime\AudioMixer\Classes
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/I "C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine"
-/Yc"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/I "C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine"
+/Yc"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

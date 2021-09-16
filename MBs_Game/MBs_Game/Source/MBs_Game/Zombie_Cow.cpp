@@ -47,7 +47,7 @@ AZombie_Cow::AZombie_Cow(const FObjectInitializer& ObjectInitializer)
 	ZombieSkeletalMesh->SetupAttachment(RootComponent);
 
 	// Create the DamageCollider and set it so that it extends out about as far as the
-	// ZombieCharacter's arm would extend when attacking.
+	// ZombieCharacter's horns would extend when attacking.
 	ZombieDamageCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("ZombieDamageCollider"));
 	ZombieDamageCollider->SetRelativeLocation(FVector(70.f, 0.f, 40.f));
 	ZombieDamageCollider->SetBoxExtent(FVector(30.f, 30.f, 20.f));

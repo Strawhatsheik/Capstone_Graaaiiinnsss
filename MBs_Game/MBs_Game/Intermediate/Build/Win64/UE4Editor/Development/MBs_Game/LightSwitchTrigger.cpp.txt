@@ -1,6 +1,6 @@
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\LightSwitchTrigger.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\LightSwitchTrigger.generated.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\LightSwitchTrigger.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\LightSwitchTrigger.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/PointLightComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LocalLightComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h

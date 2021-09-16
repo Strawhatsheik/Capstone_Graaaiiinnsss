@@ -1,0 +1,15 @@
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\DebugGame\MBs_Game\Definitions.MBs_Game.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Source\MBs_Game/CampFire.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\CampFire.generated.h

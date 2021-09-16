@@ -1,5 +1,5 @@
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\Zombie_Cow.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\Zombie_Cow.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
@@ -8,7 +8,7 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\Zombie_Cow.generated.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\Zombie_Cow.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
@@ -678,7 +678,7 @@ c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/I
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\HealthBar.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\HealthBar.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -789,12 +789,12 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\AICharacter.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\AICharacter.generated.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\HealthBar.generated.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\AICharacter.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\AICharacter.generated.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\HealthBar.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\ZombieAIController.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\ZombieAIController.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AIModule\Classes\AIController.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
@@ -828,9 +828,9 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\MBs_GameCharacter.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\OpenDoorTimelineCurve.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\OpenDoorTimelineCurve.generated.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\MBs_GameCharacter.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\OpenDoorTimelineCurve.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\OpenDoorTimelineCurve.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Perception/AISense_Sight.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Perception/AISense.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionTypes.h
@@ -839,5 +839,5 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISense_Sight.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionStimuliSourceComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionStimuliSourceComponent.generated.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\MBs_GameCharacter.generated.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\ZombieAIController.generated.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\MBs_GameCharacter.generated.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game\ZombieAIController.generated.h

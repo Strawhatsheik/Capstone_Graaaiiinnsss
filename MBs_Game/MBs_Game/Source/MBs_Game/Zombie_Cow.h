@@ -127,9 +127,9 @@ protected:
 	//Vector to hold the characters velocity, as bar must float along
 	FVector MovementVelocity;
 	//variable to hold charactrs current health
-//	float Health;
+//float Health;
 	//Variable to hold charactrs max possible health
-	//float MaxHealth = 120;
+	float MaxHealth = 120;
 	//Variable to hold inbetween for varying health in demo
 	//float HealthTweenDirection;
 	/**

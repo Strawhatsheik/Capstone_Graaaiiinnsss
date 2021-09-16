@@ -1,12 +1,12 @@
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Source\MBs_Game/MBs_GameGameMode.h
+C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Source\MBs_Game/MBs_GameGameMode.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\MBs_GameCharacter.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\MBs_GameCharacter.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
@@ -679,8 +679,8 @@ c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/I
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\source\mbs_game\OpenDoorTimelineCurve.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\OpenDoorTimelineCurve.generated.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\source\mbs_game\OpenDoorTimelineCurve.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\OpenDoorTimelineCurve.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -812,5 +812,5 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AISense_Sight.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionStimuliSourceComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionStimuliSourceComponent.generated.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\MBs_GameCharacter.generated.h
-c:\users\strawhatsheik\desktop\school - snhu\gam 312 game systems development\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\MBs_GameGameMode.generated.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\MBs_GameCharacter.generated.h
+c:\users\strawhatsheik\desktop\school snhu\final course\capstone_graaaiinnss\graaaiiinnsss\mbs_game\mbs_game\intermediate\build\win64\ue4editor\inc\mbs_game\MBs_GameGameMode.generated.h

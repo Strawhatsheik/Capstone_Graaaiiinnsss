@@ -426,24 +426,24 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game"
-/I "C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Source"
-/I "C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Source\MBs_Game"
+/I "C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Inc\MBs_Game"
+/I "C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Source"
+/I "C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Source\MBs_Game"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Source\MBs_Game\Zombie_Cow.cpp"
-/FI"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h"
-/Fo"C:\Users\Strawhatsheik\Desktop\School - SNHU\GAM 312 game systems development\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Zombie_Cow.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\MBs_GameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Source\MBs_Game\Zombie_Cow.cpp"
+/FI"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Definitions.MBs_Game.h"
+/Fo"C:\Users\Strawhatsheik\Desktop\School SNHU\FINAL COURSE\Capstone_Graaaiinnss\Graaaiiinnsss\MBs_Game\MBs_Game\Intermediate\Build\Win64\UE4Editor\Development\MBs_Game\Zombie_Cow.cpp.obj"
 /TP
 /GR-
 /W4
