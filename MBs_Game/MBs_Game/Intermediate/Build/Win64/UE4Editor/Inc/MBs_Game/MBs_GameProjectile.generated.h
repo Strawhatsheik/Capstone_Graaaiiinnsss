@@ -97,7 +97,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMBs_GameProjectile); \
 
 #define MBs_Game_Source_MBs_Game_MBs_GameProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AMBs_GameProjectile, CollisionComp); } \
-	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AMBs_GameProjectile, ProjectileMovement); }
+	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AMBs_GameProjectile, ProjectileMovement); } \
+	FORCEINLINE static uint32 __PPO__ProjectileDamageType() { return STRUCT_OFFSET(AMBs_GameProjectile, ProjectileDamageType); }
 
 
 #define MBs_Game_Source_MBs_Game_MBs_GameProjectile_h_9_PROLOG

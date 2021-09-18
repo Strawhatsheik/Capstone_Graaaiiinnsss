@@ -232,6 +232,14 @@ void EmptyLinkFunctionForGeneratedCodeZombieAIController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletDamageType_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BulletDamageType;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerHit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_PlayerHit;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CowDamageType_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_CowDamageType;
@@ -288,6 +296,22 @@ void EmptyLinkFunctionForGeneratedCodeZombieAIController() {}
 		{ "ToolTip", "* The ZombieAIController is the AIController that manages the states and movement\nof the ZombieCharacter." },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZombieAIController_Statics::NewProp_BulletDamageType_MetaData[] = {
+		{ "Category", "ZombieAIController" },
+		{ "ModuleRelativePath", "ZombieAIController.h" },
+		{ "ToolTip", "Property to handle damage and type of damage applied to zombie if received" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AZombieAIController_Statics::NewProp_BulletDamageType = { "BulletDamageType", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZombieAIController, BulletDamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AZombieAIController_Statics::NewProp_BulletDamageType_MetaData, ARRAY_COUNT(Z_Construct_UClass_AZombieAIController_Statics::NewProp_BulletDamageType_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZombieAIController_Statics::NewProp_PlayerHit_MetaData[] = {
+		{ "Category", "ZombieAIController" },
+		{ "ModuleRelativePath", "ZombieAIController.h" },
+		{ "ToolTip", "Hold damage done BY player" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AZombieAIController_Statics::NewProp_PlayerHit = { "PlayerHit", nullptr, (EPropertyFlags)0x0010008000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZombieAIController, PlayerHit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UClass_AZombieAIController_Statics::NewProp_PlayerHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AZombieAIController_Statics::NewProp_PlayerHit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AZombieAIController_Statics::NewProp_CowDamageType_MetaData[] = {
 		{ "Category", "ZombieAIController" },
@@ -362,6 +386,8 @@ void EmptyLinkFunctionForGeneratedCodeZombieAIController() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AZombieAIController_Statics::NewProp_Zombie_Cow = { "Zombie_Cow", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AZombieAIController, Zombie_Cow), Z_Construct_UClass_AZombie_Cow_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AZombieAIController_Statics::NewProp_Zombie_Cow_MetaData, ARRAY_COUNT(Z_Construct_UClass_AZombieAIController_Statics::NewProp_Zombie_Cow_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AZombieAIController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZombieAIController_Statics::NewProp_BulletDamageType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZombieAIController_Statics::NewProp_PlayerHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZombieAIController_Statics::NewProp_CowDamageType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZombieAIController_Statics::NewProp_CowHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AZombieAIController_Statics::NewProp_RoamDelay,
@@ -399,7 +425,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AZombieAIController, 2862995142);
+	IMPLEMENT_CLASS(AZombieAIController, 1704124893);
 	template<> MBS_GAME_API UClass* StaticClass<AZombieAIController>()
 	{
 		return AZombieAIController::StaticClass();
