@@ -108,9 +108,9 @@ void AZombie_Cow::BeginPlay()
 
 	//Following pertain to the floating health bar component
 	//Instantiate and create the health bar of user widget class
-	//UHealthBar* HealthBar = Cast<UHealthBar>(HealthWidgetComp->GetUserWidgetObject());
+	UHealthBar* HealthBar = Cast<UHealthBar>(HealthWidgetComp->GetUserWidgetObject());
 	//Set the owner of the health bar to be the current actor
-//	HealthBar->SetOwnerActor(this);
+	//HealthBar->SetOwnerActor();
 
 }
 /**
@@ -118,10 +118,51 @@ void AZombie_Cow::BeginPlay()
  * ZombieCharacter needs to die.
  */
 
+ //This function 'damages' the actor. It runs when the player interacts with an element that calls 'ApplyPointsDamage'
+float AZombie_Cow::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("ouch!!!!! I TOOKDAMAGE.")));
+	// Take the damage to apply from the ZombieCharacter's damage.
+	Health -= DamageAmount;
+	//Health -= 110;
+
+
+	// If the ZombieCharacter's `Health` is at or below zero then we have take care of disabling the
+	// ZombieAIController.
+	if (Health <= 0.f)
+	{
+		// Have the ZombieAIController un possess the ZombieCharacter and then destroy the
+		// ZombieAIController so it doesn't give any more input to the ZombieCharacter.
+		AAIController* ZombieAIController = Cast<AAIController>(GetController());
+		if (ZombieAIController == nullptr) return DamageAmount;
+		ZombieAIController->UnPossess();
+		ZombieAIController->Destroy();
+
+		// Put the ZombieCharacter in the `DEAD` state so that the animation blueprint will play
+		// the zombie dying animation.
+		ToDeadState();
+
+		// Now we set a timer for the length of the dying animation to make sure that if we have to
+		// destroy the ZombieCharacter, we don't do it until the animation has finished playing.
+		UWorld* World = GetWorld();
+		if (World == nullptr) return DamageAmount;
+		World->GetTimerManager().SetTimer(DeathAnimationTimer, this, &AZombie_Cow::AfterDeathAnimationFinished, DyingAnimationLengthInSeconds);
+
+
+		//Return the damage amount
+		return DamageAmount;
+	}
+	return DamageAmount;
+}
+
 void AZombie_Cow::Hit(float Damage)
 {
 	// Take the damage to apply from the ZombieCharacter's damage.
-	Health -= Damage;
+	//Health -= Damage;
+	Health -= 60;
+	
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("ouch!!!!!.")));
 
 	// If the ZombieCharacter's `Health` is at or below zero then we have take care of disabling the
 	// ZombieAIController.

@@ -6,6 +6,7 @@
 #include "AIController.h"
 #include"Engine.h"
 #include "MBs_GameCharacter.h"
+#include "Weapon.h"
 //#include "GenericTeamAgentInterface.h"
 #include "Components/PrimitiveComponent.h"
 #include "Perception/AIPerceptionTypes.h"
@@ -128,4 +129,10 @@ public:
 	//Property to handle damage and type of damage applied to player if attacked
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<UDamageType> CowDamageType;
+	//Hold damage done BY player
+	UPROPERTY(EditAnywhere)
+		FHitResult PlayerHit;
+	//Property to handle damage and type of damage applied to zombie if received
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<UDamageType> BulletDamageType;
 };

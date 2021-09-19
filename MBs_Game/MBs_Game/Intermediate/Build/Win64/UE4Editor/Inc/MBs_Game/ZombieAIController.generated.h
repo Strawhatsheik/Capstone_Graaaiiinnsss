@@ -17,7 +17,7 @@ struct FAIStimulus;
 #endif
 #define MBS_GAME_ZombieAIController_generated_h
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_RPC_WRAPPERS \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnComponentLeaveDamageCollider) \
 	{ \
@@ -56,7 +56,7 @@ struct FAIStimulus;
 	}
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnComponentLeaveDamageCollider) \
 	{ \
@@ -95,7 +95,7 @@ struct FAIStimulus;
 	}
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_INCLASS_NO_PURE_DECLS \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAZombieAIController(); \
 	friend struct Z_Construct_UClass_AZombieAIController_Statics; \
@@ -104,7 +104,7 @@ public: \
 	DECLARE_SERIALIZER(AZombieAIController)
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_INCLASS \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesAZombieAIController(); \
 	friend struct Z_Construct_UClass_AZombieAIController_Statics; \
@@ -113,7 +113,7 @@ public: \
 	DECLARE_SERIALIZER(AZombieAIController)
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_STANDARD_CONSTRUCTORS \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AZombieAIController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AZombieAIController) \
@@ -126,7 +126,7 @@ private: \
 public:
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_ENHANCED_CONSTRUCTORS \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AZombieAIController(AZombieAIController&&); \
@@ -137,26 +137,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AZombieAIController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AZombieAIController)
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_PRIVATE_PROPERTY_OFFSET
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_19_PROLOG
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_GENERATED_BODY_LEGACY \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_PRIVATE_PROPERTY_OFFSET
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_20_PROLOG
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_PRIVATE_PROPERTY_OFFSET \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_RPC_WRAPPERS \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_INCLASS \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_STANDARD_CONSTRUCTORS \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_PRIVATE_PROPERTY_OFFSET \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_RPC_WRAPPERS \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_INCLASS \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MBs_Game_Source_MBs_Game_ZombieAIController_h_22_GENERATED_BODY \
+#define MBs_Game_Source_MBs_Game_ZombieAIController_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_PRIVATE_PROPERTY_OFFSET \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_INCLASS_NO_PURE_DECLS \
-	MBs_Game_Source_MBs_Game_ZombieAIController_h_22_ENHANCED_CONSTRUCTORS \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_PRIVATE_PROPERTY_OFFSET \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_INCLASS_NO_PURE_DECLS \
+	MBs_Game_Source_MBs_Game_ZombieAIController_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

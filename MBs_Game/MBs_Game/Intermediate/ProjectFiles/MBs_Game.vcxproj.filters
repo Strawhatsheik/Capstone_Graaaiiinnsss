@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MBs_Game.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{13AF2A5C-7BB8-4540-A71A-3789A90E27CB}</UniqueIdentifier>
+      <UniqueIdentifier>{9E2EA736-BFE4-4569-B130-EF262AACACF0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MBs_Game.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DBF34C76-1FF5-42AD-A3FE-60CA6149885C}</UniqueIdentifier>
+      <UniqueIdentifier>{B492B6F4-1D19-4EA8-80CC-A7178EFB4683}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MBs_Game">
-      <UniqueIdentifier>{C2F3BE9D-1EBC-4F05-A46F-F4F7540EEDF2}</UniqueIdentifier>
+      <UniqueIdentifier>{479AB8D3-FC5E-4F9E-939A-4D52C1CEE490}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MBs_Game\AICharacter.cpp">
       <Filter>Source\MBs_Game</Filter>
@@ -154,6 +154,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MBs_Game\Zombie_Cow.h">
       <Filter>Source\MBs_Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\MBs_Game\Health">
+      <UniqueIdentifier>{B05216E6-A045-46ED-905E-CCC8610FBC50}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MBs_Game\Health\HealthComponent.cpp">
+      <Filter>Source\MBs_Game\Health</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MBs_Game\Health\HealthComponent.h">
+      <Filter>Source\MBs_Game\Health</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
