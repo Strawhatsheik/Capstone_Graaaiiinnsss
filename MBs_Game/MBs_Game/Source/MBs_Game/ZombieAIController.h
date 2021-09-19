@@ -6,6 +6,7 @@
 #include "AIController.h"
 #include"Engine.h"
 #include "MBs_GameCharacter.h"
+#include "Weapon.h"
 //#include "GenericTeamAgentInterface.h"
 #include "Components/PrimitiveComponent.h"
 #include "Perception/AIPerceptionTypes.h"

@@ -4,3 +4,6 @@ MBs_Game/MBs_Game/.vs/MBs_Game/v15/ipch/AutoPCH/1b17f7e919918b1b/MBS_GAMEGAMEMOD
 *.ipch
 *.db
 *.bin
+MBs_Game/MBs_Game/.vs/MBs_Game/v16/Browse.VC.db-shm
+*.db-wal
+*.dmp

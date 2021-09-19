@@ -280,12 +280,15 @@ void AZombieAIController::OnComponentEnterDamageCollider(UPrimitiveComponent* Ov
 {
 	//IF what enteres collider isd projectile
 	
-	if (AMBs_GameProjectile* FiredProjectile = Cast<AMBs_GameProjectile>(OtherActor))
+	if (AWeapon* FiredProjectile = Cast<AWeapon>(OtherActor))
 	{//Return if not
 
-		//if (FiredProjectile == nullptr)
-			//return;
+		if (FiredProjectile == nullptr)
+		return;
+		//Debug message
 		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Purple, FString::Printf(TEXT("Hurray for Sheik! Sheik the genius!")));
+		
+		//apply points to cow
 		UGameplayStatics::ApplyPointDamage(Zombie_Cow, 200.0f, (FVector(0.0f, 0.0f, 0.0f)), PlayerHit, nullptr, this, BulletDamageType);
 	//dont we want it to be zombiecow not firedprojectile to take damage? right? 
 	}
