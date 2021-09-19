@@ -8,7 +8,6 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/Controller.h"
 #include "MBs_GameCharacter.h"
-#include "MBs_GameProjectile.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Zombie_Cow.h"
 #include "Kismet/GameplayStatics.h"
@@ -275,27 +274,12 @@ void AZombieAIController::IdleOrRoam()
 /**
  * Called when an actor enters the ZombieCharacter's DamageCollider.
  */
-//maybe here? Here is where the damage can be linked to box? go for the ehad?
 void AZombieAIController::OnComponentEnterDamageCollider(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	//IF what enteres collider isd projectile
-	
-	if (AMBs_GameProjectile* FiredProjectile = Cast<AMBs_GameProjectile>(OtherActor))
-	{//Return if not
-
-		//if (FiredProjectile == nullptr)
-			//return;
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Purple, FString::Printf(TEXT("Hurray for Sheik! Sheik the genius!")));
-		UGameplayStatics::ApplyPointDamage(Zombie_Cow, 200.0f, (FVector(0.0f, 0.0f, 0.0f)), PlayerHit, nullptr, this, BulletDamageType);
-	//dont we want it to be zombiecow not firedprojectile to take damage? right? 
-	}
-
-
 	// Try to cast the `OtherActor` to our `PlayerCharacter` and if we can then we
 	// switch the ZombieCharacter to be in the ATTACK state.
 	AMBs_GameCharacter* PlayerCharacter = Cast<AMBs_GameCharacter>(OtherActor);
-	if (PlayerCharacter == nullptr) 
-		return;
+	if (PlayerCharacter == nullptr) return;
 
 	Zombie_Cow->ToAttackState();
 

@@ -22,8 +22,6 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
@@ -95,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMBs_GameProjectile_OnHit_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "MBs_GameProjectile.h" },
-		{ "ToolTip", "called when projectile hits something //This is similar to the onOverlap and overlapend in campFire" },
+		{ "ToolTip", "called when projectile hits something" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMBs_GameProjectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMBs_GameProjectile, nullptr, "OnHit", sizeof(MBs_GameProjectile_eventOnHit_Parms), Z_Construct_UFunction_AMBs_GameProjectile_OnHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMBs_GameProjectile_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMBs_GameProjectile_OnHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMBs_GameProjectile_OnHit_Statics::Function_MetaDataParams)) };
@@ -124,10 +122,6 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Damage;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileDamageType_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileDamageType;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovement_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
@@ -144,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MBs_Game,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMBs_GameProjectile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMBs_GameProjectile_OnHit, "OnHit" }, // 2706527188
+		{ &Z_Construct_UFunction_AMBs_GameProjectile_OnHit, "OnHit" }, // 3318071626
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMBs_GameProjectile_Statics::Class_MetaDataParams[] = {
@@ -160,13 +154,6 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMBs_GameProjectile, Damage), METADATA_PARAMS(Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_Damage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_Damage_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileDamageType_MetaData[] = {
-		{ "Category", "MBs_GameProjectile" },
-		{ "ModuleRelativePath", "MBs_GameProjectile.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileDamageType = { "ProjectileDamageType", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMBs_GameProjectile, ProjectileDamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileDamageType_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileDamageType_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -188,7 +175,6 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_CollisionComp = { "CollisionComp", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMBs_GameProjectile, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_CollisionComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_CollisionComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMBs_GameProjectile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_Damage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileDamageType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMBs_GameProjectile_Statics::NewProp_CollisionComp,
 	};
@@ -219,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeMBs_GameProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMBs_GameProjectile, 3056213177);
+	IMPLEMENT_CLASS(AMBs_GameProjectile, 1253632159);
 	template<> MBS_GAME_API UClass* StaticClass<AMBs_GameProjectile>()
 	{
 		return AMBs_GameProjectile::StaticClass();
