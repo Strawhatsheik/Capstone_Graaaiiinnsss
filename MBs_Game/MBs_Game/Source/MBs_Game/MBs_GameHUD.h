@@ -23,6 +23,9 @@ public:
 private:
 	/** Crosshair asset pointer */
 	class UTexture2D* CrosshairTex;
+	//Hods current name
+	FString LevelName;
+
 
 //Properties to be used to display users health and magic
 	

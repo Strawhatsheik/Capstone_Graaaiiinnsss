@@ -27,6 +27,7 @@ class AMBs_GameGameMode : public AGameModeBase
 public:
 	AMBs_GameGameMode();
 
+
 	//On begin of play
 	virtual void BeginPlay() override;
 
@@ -59,7 +60,9 @@ private:
 
 	//Handler for functions effecting the current playing state
 	void HandleNewState(EGamePlayState NewState);
-
+	
+	//To hold levelname
+	FString LevelName;
 protected:
 	//Timers to handle counting down for level
 	FTimerHandle TimerHandleClock;

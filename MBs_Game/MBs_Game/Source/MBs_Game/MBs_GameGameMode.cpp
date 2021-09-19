@@ -19,9 +19,10 @@ AMBs_GameGameMode::AMBs_GameGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 
-	static ConstructorHelpers::FClassFinder<UUserWidget> HealthBar(TEXT("/Game/FirstPerson/UI/Health_UI"));
-	// use our custom HUD class
-	HUDClass = AMBs_GameHUD::StaticClass();
+		static ConstructorHelpers::FClassFinder<UUserWidget> HealthBar(TEXT("/Game/FirstPerson/UI/Health_UI"));
+		// use our custom HUD class
+		HUDClass = AMBs_GameHUD::StaticClass();
+	
 
 	// add Health Bar UI to viewport
 	if (HUDClass != nullptr)//If HUD class is NOT null
@@ -44,14 +45,23 @@ void AMBs_GameGameMode::BeginPlay()
 {
 	//On begin play
 	Super::BeginPlay();
-	//Set state to currently playing
-	SetCurrentState(EGamePlayState::EPlaying);
-	//Retrieve player character
-	MyCharacter = Cast<AMBs_GameCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 
-	//Start countdown timer on begin play
-	//GetWorldTimerManager().SetTimer(TimerHandleClock, this, &AMBs_GameGameMode::EndClock,
-		//200.0f, true);
+	//Get the levels name
+	LevelName = GetWorld()->GetMapName();
+
+	//If main playing level, we want to display HUD
+	if (LevelName == "Level1")
+	{
+
+		//Set state to currently playing
+		SetCurrentState(EGamePlayState::EPlaying);
+		//Retrieve player character
+		MyCharacter = Cast<AMBs_GameCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
+
+		//Start countdown timer on begin play
+		//GetWorldTimerManager().SetTimer(TimerHandleClock, this, &AMBs_GameGameMode::EndClock,
+			//200.0f, true);
+	}
 }
 
 

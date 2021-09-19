@@ -39,23 +39,31 @@ void AMBs_GameHUD::DrawHUD()
 	TileItem.BlendMode = SE_BLEND_Translucent;
 	Canvas->DrawItem( TileItem );
 }
-//Overridden BEginPlay function to display HUD on start of game
+//Overridden BeginPlay function to display HUD on start of game
 void AMBs_GameHUD::BeginPlay()
 {
 	//On begining of play
 	Super::BeginPlay();
 
-	//Retrieve HUD class, and if successful
-	if (HUDWidgetClass != nullptr)
-	{
-		//Create the HUD user widget
-		//CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), HUDWidgetClass);
+	//Get the levels name
+	LevelName = GetWorld()->GetMapName();
 
-		//If the creation was successful and there is now a 'CurrentWidget'
-		if (CurrentWidget)
+	//If main playing level, we want to display HUD
+	if (LevelName == "Level1")
+	{
+
+		//Retrieve HUD class, and if successful
+		if (HUDWidgetClass != nullptr)
 		{
-			//Add that widget to viewport
-			CurrentWidget->AddToViewport();
+			//Create the HUD user widget
+			//CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), HUDWidgetClass);
+
+			//If the creation was successful and there is now a 'CurrentWidget'
+			if (CurrentWidget)
+			{
+				//Add that widget to viewport
+				CurrentWidget->AddToViewport();
+			}
 		}
 	}
 }
