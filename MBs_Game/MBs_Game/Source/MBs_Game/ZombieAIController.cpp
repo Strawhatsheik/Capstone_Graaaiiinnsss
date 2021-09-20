@@ -286,7 +286,7 @@ void AZombieAIController::OnComponentEnterDamageCollider(UPrimitiveComponent* Ov
 		if (FiredProjectile == nullptr)
 		return;
 		//Debug message
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Purple, FString::Printf(TEXT("Hurray for Sheik! Sheik the genius!")));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Purple, FString::Printf(TEXT("Hurray for Sheik! Sheik the genius!")));
 		
 		//apply points to cow
 		UGameplayStatics::ApplyPointDamage(Zombie_Cow, 50.0f, (FVector(0.0f, 0.0f, 0.0f)), PlayerHit, nullptr, this, BulletDamageType);

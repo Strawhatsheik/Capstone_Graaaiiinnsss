@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MBs_Game.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9E2EA736-BFE4-4569-B130-EF262AACACF0}</UniqueIdentifier>
+      <UniqueIdentifier>{237C1A35-4296-4BBB-A01B-13438A6CE62B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MBs_Game.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B492B6F4-1D19-4EA8-80CC-A7178EFB4683}</UniqueIdentifier>
+      <UniqueIdentifier>{A4217F74-23EA-42BD-B571-D482FA128743}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MBs_Game">
-      <UniqueIdentifier>{479AB8D3-FC5E-4F9E-939A-4D52C1CEE490}</UniqueIdentifier>
+      <UniqueIdentifier>{C37D079F-A38E-4954-9CB1-09C640726466}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MBs_Game\AICharacter.cpp">
       <Filter>Source\MBs_Game</Filter>
@@ -156,7 +156,7 @@
       <Filter>Source\MBs_Game</Filter>
     </ClInclude>
     <Filter Include="Source\MBs_Game\Health">
-      <UniqueIdentifier>{B05216E6-A045-46ED-905E-CCC8610FBC50}</UniqueIdentifier>
+      <UniqueIdentifier>{73527B6D-1C42-4D70-9AE8-6DB04F540D84}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MBs_Game\Health\HealthComponent.cpp">
       <Filter>Source\MBs_Game\Health</Filter>

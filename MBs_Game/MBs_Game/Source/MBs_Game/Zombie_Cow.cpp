@@ -216,7 +216,7 @@ void AZombie_Cow::ToIdleState()
 	if (GEngine)
 	{	//Pass info of hit componentto debugger to be displayed on screen
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("I am going to IDLE now.")));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("I am going to IDLE now.")));
 	}
 	State = ZombieStates::IDLE;
 }
@@ -230,7 +230,7 @@ void AZombie_Cow::ToRoamState()
 	if (GEngine)
 	{	//Pass info of hit componentto debugger to be displayed on screen
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("I am going to back to looking for GRAAAINNNSSS .")));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("I am going to back to looking for GRAAAINNNSSS .")));
 	}
 	State = ZombieStates::ROAM;
 
@@ -249,7 +249,7 @@ void AZombie_Cow::ToChaseState()
 	if (GEngine)
 	{	//Pass info of hit componentto debugger to be displayed on screen
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("I am going to CHASE YOU now.")));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("I am going to CHASE YOU now.")));
 	}
 	State = ZombieStates::CHASE;
 
@@ -269,7 +269,7 @@ void AZombie_Cow::ToAttackState()
 	if (GEngine)
 	{	//Pass info of hit componentto debugger to be displayed on screen
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("GARRR !!! I'm attacking!")));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("GARRR !!! I'm attacking!")));
 	}
 	State = ZombieStates::ATTACK;
 }
@@ -282,7 +282,7 @@ void AZombie_Cow::ToDeadState()
 	if (GEngine)
 	{	//Pass info of hit componentto debugger to be displayed on screen
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("Oh nooooo! I'm dead")));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("Oh nooooo! I'm dead")));
 	}
 	State = ZombieStates::DEAD;
 }
